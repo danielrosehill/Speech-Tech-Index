@@ -1,6 +1,8 @@
 # Speech Tech Index
 
-A curated index of speech technology repositories, tools, and resources.
+[![Part of the Daniel Rosehill Index Collection](https://img.shields.io/badge/Index-Master%20Index-blue?logo=github)](https://github.com/danielrosehill/Index)
+
+Index of speech technology repositories, tools, and resources.
 
 ---
 
@@ -20,29 +22,65 @@ Validated fine-tuning script for fine-tuning Whisper on Modal GPU with a preform
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Modal-Whisper-Finetune-Script)
 
+---
+
 ### My Whisper ACFT Fine-Tunes (Collection)
 
-Collection of fine-tuned Whisper models for personalized speech recognition
+Collection of fine-tuned Whisper models specifically for FUTO Keyboard on mobile. Fine-tuned on ~1 hour of personal voice samples.
 
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-Collection-yellow?logo=huggingface)](https://huggingface.co/collections/danielrosehill/my-whisper-acft-fine-tunes)
 
-### Daniel Whisper ACFT Base V2
+### Whisper ACFT - Base
 
 Base-sized Whisper fine-tune
 
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface)](https://huggingface.co/danielrosehill/daniel_whisper_acft_base_v2)
 
-### Daniel Whisper ACFT Small V2
+### Whisper ACFT - Small
 
 Small-sized Whisper fine-tune
 
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface)](https://huggingface.co/danielrosehill/daniel_whisper_acft_small_v2)
 
-### Daniel Whisper ACFT Tiny V2
+### Whisper ACFT - Tiny
 
 Tiny-sized Whisper fine-tune
 
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface)](https://huggingface.co/danielrosehill/daniel_whisper_acft_tiny_v2)
+
+---
+
+### My Whisper Fine-Tunes V2 (Collection)
+
+Collection of general Whisper fine-tuned models for desktop use, available in GGML and CTranslate2 formats. Fine-tuned on ~1 hour of personal voice samples.
+
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-Collection-yellow?logo=huggingface)](https://huggingface.co/collections/danielrosehill/my-whisper-fine-tunes-v2)
+
+### Whisper Fine-Tune - Large V3 Turbo
+
+Large V3 Turbo-sized Whisper fine-tune
+
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface)](https://huggingface.co/danielrosehill/daniel_whisper_finetune_large_v3_turbo_v2)
+
+### Whisper Fine-Tune - Medium
+
+Medium-sized Whisper fine-tune
+
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface)](https://huggingface.co/danielrosehill/daniel_whisper_finetune_medium_v2)
+
+### Whisper Fine-Tune - Tiny
+
+Tiny-sized Whisper fine-tune
+
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface)](https://huggingface.co/danielrosehill/daniel_whisper_finetune_tiny_v2)
+
+### Whisper Fine-Tune - Base
+
+Base-sized Whisper fine-tune
+
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface)](https://huggingface.co/danielrosehill/daniel_whisper_finetune_base_v2)
+
+---
 
 ### STT Fine Tune Project Outline
 
@@ -64,9 +102,9 @@ Fine-tuned Whisper model for Hebrew/English mixed speech
 
 ---
 
-## Training Data & Datasets
+## ASR Training Data GUIs
 
-Tools for creating training data and curated datasets for speech recognition.
+GUI applications for creating and collecting training data for ASR fine-tuning.
 
 ### ASR Training Data Chunker
 
@@ -80,11 +118,17 @@ GUI to facilitate gathering training data for ASR/STT apps in organised datasets
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/ASR-Training-Data-Collector)
 
-### English-Hebrew Mixed Sentences
+### Voice Training Data Creator
 
-Dataset of mixed English/Hebrew sentences for multilingual ASR training
+GUI to facilitate capturing voice data for TTS / voice clone training with LLM synthetic text generation and saving logic (Ubuntu Linux)
 
-[![Hugging Face](https://img.shields.io/badge/HuggingFace-Dataset-yellow?logo=huggingface)](https://huggingface.co/datasets/danielrosehill/English-Hebrew-Mixed-Sentences)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Voice-Training-Data-Creator)
+
+---
+
+## ASR Datasets
+
+Curated datasets for training and evaluating ASR/STT models.
 
 ### My Public Audio Datasets (Collection)
 
@@ -92,17 +136,17 @@ Collection of public audio datasets for speech recognition training and evaluati
 
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-Collection-yellow?logo=huggingface)](https://huggingface.co/collections/danielrosehill/my-public-audio-datasets)
 
+### English-Hebrew Mixed Sentences
+
+Dataset of mixed English/Hebrew sentences for multilingual ASR training
+
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-Dataset-yellow?logo=huggingface)](https://huggingface.co/datasets/danielrosehill/English-Hebrew-Mixed-Sentences)
+
 ### Tech Audio Samples
 
 Technical audio samples for STT evaluation
 
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-Dataset-yellow?logo=huggingface)](https://huggingface.co/datasets/danielrosehill/Tech-Audio-Samples)
-
-### Voice Training Data Creator
-
-GUI to facilitate capturing voice data for TTS / voice clone training with LLM synthetic text generation and saving logic (Ubuntu Linux)
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Voice-Training-Data-Creator)
 
 ### Whisper WPM Test
 
@@ -116,47 +160,51 @@ Dataset for testing words-per-minute recognition accuracy
 
 Desktop applications and utilities for speech-to-text input.
 
-### Deepgram Voice Keyboard
+### Whisper-Based Linux Prototypes
 
-A fork of Deepgram's Linux starter. CLI -> GUI + hotkey support, API key editing, cost tracking. WIP
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/deepgram-voice-keyboard)
-
-### Deepgram Voice Keyboard Ubuntu
-
-WIP to try to create a good STT utility with cloud STT APIs
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Deepgram-Voice-Keyboard-Ubuntu)
-
-### Voice Prompt Editor
+#### Voice Prompt Editor
 
 Streamlit app for capturing and editing prompts and system prompts
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Voice-Prompt-Editor)
 
-### Voice Prompt Runner
+#### Voice Prompt Runner
 
 Demo UI which parses and then runs audio prompts
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Voice-Prompt-Runner)
 
-### Whisper Notepad For Linux
+#### Whisper Notepad For Linux
 
 Notepad for Linux that uses OpenAI Whisper (API) and reformats dictated text
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Whisper-Notepad-For-Linux)
 
-### Whisper Notepad Simple
+#### Whisper Notepad Simple
 
 A Linux desktop utility for converting speech to text using the OpenAI Whisper API
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Whisper-Notepad-Simple)
 
-### Whisper Transcription Notepad Linux
+#### Whisper Transcription Notepad Linux
 
 Transcription notepad with cloud speech to text (STT) for Linux
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Whisper-Transcription-Notepad-Linux)
+
+### Deepgram-Based Linux Prototypes
+
+#### Deepgram Voice Keyboard
+
+A fork of Deepgram's Linux starter. CLI -> GUI + hotkey support, API key editing, cost tracking. WIP
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/deepgram-voice-keyboard)
+
+#### Deepgram Voice Keyboard Ubuntu
+
+WIP to try to create a good STT utility with cloud STT APIs
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Deepgram-Voice-Keyboard-Ubuntu)
 
 ---
 
