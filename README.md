@@ -2,7 +2,9 @@
 
 [![Part of the Daniel Rosehill Index Collection](https://img.shields.io/badge/Index-Master%20Index-blue?logo=github)](https://github.com/danielrosehill/Index)
 
-Index of speech technology repositories, tools, and resources.
+Index of speech technology repositories, tools, and resources — covering the full pipeline from speech capture through transcription, cleanup, and text transformation.
+
+*Last updated: 2026-03-25*
 
 ---
 
@@ -87,6 +89,12 @@ Base-sized Whisper fine-tune
 Planning doc for STT fine-tuning and eval project
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/STT-Fine-Tune-Project-Outline)
+
+### whisper-acft
+
+Whisper ACFT fine-tuning
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/whisper-acft)
 
 ### Whisper Fine Tuning Resources
 
@@ -206,6 +214,94 @@ WIP to try to create a good STT utility with cloud STT APIs
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Deepgram-Voice-Keyboard-Ubuntu)
 
+### Other STT & Dictation Apps
+
+#### amical
+
+Open Source AI Dictation App - Type 3x faster, no keyboard needed
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/amical)
+
+#### Handy
+
+A free, open source, and extensible speech-to-text application that works completely offline
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Handy)
+
+#### hyprvoice
+
+Voice-powered typing for Wayland/Hyprland desktops
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/hyprvoice)
+
+#### parakeet-dictation
+
+On-device voice typing for Linux using Parakeet and NeMo ASR models via sherpa-onnx
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/parakeet-dictation)
+
+#### speech-notes-with-text-fixes
+
+Speech Note Linux app. Note taking, reading and translating with offline STT, TTS and Machine translation
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/speech-notes-with-text-fixes)
+
+#### Thought-Pad
+
+Linux desktop application for creating notes from dictated speech
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Thought-Pad)
+
+#### Voice-Note-Recorder-Ubuntu
+
+GUI for recording voice notes
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Voice-Note-Recorder-Ubuntu)
+
+#### Wayland-Voice-Typer
+
+Simple GUI around whisper.cpp for voice-to-text on Linux
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Wayland-Voice-Typer)
+
+### Multimodal Audio Transcription
+
+#### AI-Transcription-Notepad
+
+Voice note taking utility with cloud audio multimodal models for transcription and text cleanup
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/AI-Transcription-Notepad)
+
+#### Cloud-ASR-MCP
+
+WIP MCP for using various cloud ASR models for speech to text / transcription
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Cloud-ASR-MCP)
+
+#### DVR-Transcriber
+
+Workflow workspace for importing recordings from a DVR and using AI for transcription
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/DVR-Transcriber)
+
+#### Gemini-Audio-Transcriber
+
+File upload based multimodal transcription tool using Gemini
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Gemini-Audio-Transcriber)
+
+#### Gemini-Transcription-MCP
+
+MCP for Gemini multimodal audio transcription with built in post-processing
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Gemini-Transcription-MCP)
+
+#### Local-Multimodal-Transcriber
+
+Local transcription app with audio multimodal design
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Local-Multimodal-Transcriber)
+
 ---
 
 ## Transcript Processing
@@ -260,6 +356,48 @@ Updated repo of text transformation prompts (raw STT transcripts -> *). New repo
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Text-Transformation-Prompt-Library)
 
+### AI Text Rewriting Toolbox
+
+LLM text reformatting and rewriting toolbox comprised of many system prompts
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/AI-Text-Rewriting-Toolbox)
+
+### Audiopenai Edit Prompts
+
+Text transformation prompts library for Audiopen.ai
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Audiopenai-Edit-Prompts)
+
+### Shakespearean Text Generators
+
+System prompts for rewriting text in Shakespearean English
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Shakespearean-Text-Generators)
+
+### Text Cleanup Fine Tuning Set
+
+Fine-tuning dataset/plans for text cleanup audio multimodal
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Text-Cleanup-Fine-Tuning-Set)
+
+### Text Transformation Prompt Stack
+
+Documentation/notes for a "prompt stack" for audio multimodal text processing
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Text-Transformation-Prompt-Stack)
+
+### Transcription Cleanup Eval 1225
+
+Evaluating various cloud audio understanding models on transcribe and cleanup
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Transcription-Cleanup-Eval-1225)
+
+### Voice Cleanup Prompt Experiment
+
+Testing various permutations in system prompting for raw audio transcript cleanup
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Voice-Cleanup-Prompt-Experiment)
+
 ### Voice Note Redaction Agent
 
 Config for a text redaction agent for voicenote -> * workflows
@@ -308,6 +446,18 @@ A conceptual voice to prompt pipeline that attempts to separate instructions fro
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Voice-To-Prompt-Pipeline)
 
+### N8N Voice Note Context Pipeline Workflow
+
+Workflow for extracting context data from voice notes to Pinecone
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/N8N-Voice-Note-Context-Pipeline-Workflow)
+
+### Voice Note Ragie Pipeline
+
+Test pipeline: voice context data to Ragie
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Voice-Note-Ragie-Pipeline)
+
 ### Voicenotes Prompt To Email Workflow N8N
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Voicenotes-Prompt-To-Email-Workflow-N8N)
@@ -340,11 +490,47 @@ Compare different speech-to-text models and services
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/STT-Voice-Note-Evaluation)
 
+### Local ASR STT Benchmark
+
+Quick evaluation to find the best STT model in Speech Note (Ubuntu) for specific hardware
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Local-ASR-STT-Benchmark)
+
+### Long Form Audio Pipeline
+
+Basic audio pipeline for preparing long audio content for ASR transcription
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Long-Form-Audio-Pipeline)
+
+### One Shot Transcription Microphone Eval
+
+Test samples for various microphones with an STT accuracy eval
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/One-Shot-Transcription-Microphone-Eval)
+
+### Speech And ASR Evaluations
+
+Index repository for speech recognition and ASR evaluations
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Speech-And-ASR-Evaluations)
+
+### Whisper Fine-Tune Accuracy Eval
+
+Comparing Whisper fine-tunes versus stock Whisper on local inference
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Whisper-Fine-Tune-Accuracy-Eval)
+
 ### Whisper Fine-Tune Eval
 
 Evaluation interface for fine-tuned Whisper models
 
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-Space-yellow?logo=huggingface)](https://huggingface.co/spaces/danielrosehill/Whisper-Fine-Tune-Eval)
+
+### Whisper WPM Background Noise Eval
+
+Quick eval: how much does speaking pace affect WER/accuracy in ASR?
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Whisper-WPM-Background-Noise-Eval)
 
 ---
 
@@ -435,6 +621,36 @@ Some timestamped API pricepoints for speech to text providers
 A few notes describing the kind of voice app for large language models I would love to have!
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Voice-LLM-App-Notes)
+
+### Dictation Macropad
+
+Plan/key allocation for a macropad optimised for heavy daily dictation workflows
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Dictation-Macropad)
+
+### Linux Friendly Voice Tech
+
+List of resources for voice technology with support for Linux
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Linux-Friendly-Voice-Tech)
+
+### Speech To Text Chain Notes
+
+Notes on STT processing chain (for future voice projects)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Speech-To-Text-Chain-Notes)
+
+### Ubuntu Mic Selector
+
+Utility for switching microphone sources
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Ubuntu-Mic-Selector)
+
+### Voice Control Linux
+
+Claude-enhanced research for voice control platforms with Linux support
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Voice-Control-Linux)
 
 ### Voicepad
 
