@@ -580,6 +580,12 @@ Generates SSML from text by inference
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Text-To-SSML-Generator)
 
+### Hebrew TTS Providers
+
+Reference of Hebrew text-to-speech providers and services
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Hebrew-TTS-Providers)
+
 ---
 
 ## General
