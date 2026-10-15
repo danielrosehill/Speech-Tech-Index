@@ -114,6 +114,12 @@ Sub-index for all English-Hebrew code-switching work: Whisper-Hebrish, the Parak
 
 [![GitHub](https://img.shields.io/badge/GitHub-Index-blue?logo=github)](https://github.com/danielrosehill/English-Hebrew-Code-Switching-Index)
 
+### Hugging Face Releases Index
+
+All of my Hugging Face releases by theme. Includes every ASR fine-tune listed above with its training data, eval datasets and demo Spaces
+
+[![GitHub](https://img.shields.io/badge/GitHub-Index-blue?logo=github)](https://github.com/danielrosehill/Hugging-Face-Releases-Index)
+
 ---
 
 ## ASR Training Data GUIs
