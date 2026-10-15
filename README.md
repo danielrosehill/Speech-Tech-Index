@@ -4,7 +4,7 @@
 
 Index of speech technology repositories, tools, and resources — covering the full pipeline from speech capture through transcription, cleanup, and text transformation.
 
-*Last updated: 2026-03-25*
+*Last updated: 2026-10-15*
 
 ---
 
@@ -107,6 +107,12 @@ Some resources for those looking to fine-tune Whisper ASR
 Fine-tuned Whisper model for Hebrew/English mixed speech
 
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface)](https://huggingface.co/danielrosehill/Whisper-Hebrish)
+
+### English-Hebrew Code-Switching Index
+
+Sub-index for all English-Hebrew code-switching work: Whisper-Hebrish, the Parakeet code-switching fine-tune, the read-aloud datasets and the Hebrew-in-Latin token classifier
+
+[![GitHub](https://img.shields.io/badge/GitHub-Index-blue?logo=github)](https://github.com/danielrosehill/English-Hebrew-Code-Switching-Index)
 
 ---
 
