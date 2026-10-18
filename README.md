@@ -230,19 +230,20 @@ WIP to try to create a good STT utility with cloud STT APIs
 
 On-device apps for the [Parakeet English-Hebrew code-switching fine-tune](https://github.com/danielrosehill/English-Hebrew-Codeswitching-Parakeet-Finetune) (sherpa-onnx). Both download the model themselves and update it from Hugging Face.
 
-#### Codeswitch Dictation (Linux)
+#### Voice To Hebrish (Linux and Windows)
 
-Tray dictation app for Ubuntu: any hotkey or foot pedal (tap to toggle, or hold to talk), pastes at the cursor, first-run model download and update checks. v0.1.0 proof of concept (2026-10-18).
+Tray dictation app for Ubuntu and Windows: any hotkey or foot pedal (tap to toggle, or hold to talk) pastes at the cursor, plus a Transcribe tab for long recordings and audio files. First-run model download and update checks. v0.2.0 proof of concept (2026-10-18).
 
-[![.deb](https://img.shields.io/badge/Download-.deb_v0.1.0-E95420?logo=ubuntu&logoColor=white)](https://github.com/danielrosehill/English-Hebrew-Codeswitching-Dictation-Linux/releases/download/v0.1.0/codeswitch-dictation_0.1.0-1_amd64.deb)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/English-Hebrew-Codeswitching-Dictation-Linux)
+[![.deb](https://img.shields.io/badge/Download-.deb_v0.2.0-E95420?logo=ubuntu&logoColor=white)](https://github.com/danielrosehill/Voice-To-Hebrish/releases/download/desktop-v0.2.0/voice-to-hebrish_0.2.0-1_amd64.deb)
+[![Windows](https://img.shields.io/badge/Download-Windows_v0.2.0-0078D4?logo=windows&logoColor=white)](https://github.com/danielrosehill/Voice-To-Hebrish/releases/download/desktop-v0.2.0/VoiceToHebrish-v0.2.0-windows-x64.zip)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Voice-To-Hebrish/tree/main/desktop)
 
-#### Codeswitch Voice (Android)
+#### Voice To Hebrish (Android)
 
-Voice keyboard (IME), the companion voice input for HeliBoard. v0.4.0 proof of concept (2026-10-18).
+Voice keyboard (IME), the companion voice input for HeliBoard, with a no-setup **Try it** notepad. v0.6.0 proof of concept (2026-10-18).
 
-[![APK](https://img.shields.io/badge/Download-APK_v0.4.0-2E7D6B?logo=android&logoColor=white)](https://github.com/danielrosehill/English-Hebrew-Codeswitching-Voice-Keyboard-Android/releases/download/v0.4.0/CodeswitchVoice-v0.4.0.apk)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/English-Hebrew-Codeswitching-Voice-Keyboard-Android)
+[![APK](https://img.shields.io/badge/Download-APK_v0.6.0-2E7D6B?logo=android&logoColor=white)](https://github.com/danielrosehill/Voice-To-Hebrish/releases/download/android-v0.6.0/VoiceToHebrish-v0.6.0.apk)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Voice-To-Hebrish/tree/main/android)
 
 ### Other STT & Dictation Apps
 
@@ -266,7 +267,7 @@ Voice-powered typing for Wayland/Hyprland desktops
 
 #### Parakeet-Type-Ubuntu
 
-On-device voice typing for Linux (KDE) with several Parakeet, Canary and Nemotron models via sherpa-onnx. For the code-switching fine-tune, use Codeswitch Dictation (above) instead.
+On-device voice typing for Linux (KDE) with several Parakeet, Canary and Nemotron models via sherpa-onnx. For the code-switching fine-tune, use Voice To Hebrish (desktop) (above) instead.
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Parakeet-Type-Ubuntu)
 
