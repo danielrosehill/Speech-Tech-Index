@@ -4,7 +4,7 @@
 
 Index of speech technology repositories, tools, and resources — covering the full pipeline from speech capture through transcription, cleanup, and text transformation.
 
-*Last updated: 2026-10-15*
+*Last updated: 2026-10-18*
 
 ---
 
@@ -226,6 +226,24 @@ WIP to try to create a good STT utility with cloud STT APIs
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Deepgram-Voice-Keyboard-Ubuntu)
 
+### English-Hebrew Code-Switching Apps
+
+On-device apps for the [Parakeet English-Hebrew code-switching fine-tune](https://github.com/danielrosehill/English-Hebrew-Codeswitching-Parakeet-Finetune) (sherpa-onnx). Both download the model themselves and update it from Hugging Face.
+
+#### Codeswitch Dictation (Linux)
+
+Tray dictation app for Ubuntu: any hotkey or foot pedal (tap to toggle, or hold to talk), pastes at the cursor, first-run model download and update checks. v0.1.0 proof of concept (2026-10-18).
+
+[![.deb](https://img.shields.io/badge/Download-.deb_v0.1.0-E95420?logo=ubuntu&logoColor=white)](https://github.com/danielrosehill/English-Hebrew-Codeswitching-Dictation-Linux/releases/download/v0.1.0/codeswitch-dictation_0.1.0-1_amd64.deb)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/English-Hebrew-Codeswitching-Dictation-Linux)
+
+#### Codeswitch Voice (Android)
+
+Voice keyboard (IME), the companion voice input for HeliBoard. v0.4.0 proof of concept (2026-10-18).
+
+[![APK](https://img.shields.io/badge/Download-APK_v0.4.0-2E7D6B?logo=android&logoColor=white)](https://github.com/danielrosehill/English-Hebrew-Codeswitching-Voice-Keyboard-Android/releases/download/v0.4.0/CodeswitchVoice-v0.4.0.apk)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/English-Hebrew-Codeswitching-Voice-Keyboard-Android)
+
 ### Other STT & Dictation Apps
 
 #### amical
@@ -246,11 +264,11 @@ Voice-powered typing for Wayland/Hyprland desktops
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/hyprvoice)
 
-#### parakeet-dictation
+#### Parakeet-Type-Ubuntu
 
-On-device voice typing for Linux using Parakeet and NeMo ASR models via sherpa-onnx
+On-device voice typing for Linux (KDE) with several Parakeet, Canary and Nemotron models via sherpa-onnx. For the code-switching fine-tune, use Codeswitch Dictation (above) instead.
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/parakeet-dictation)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Parakeet-Type-Ubuntu)
 
 #### speech-notes-with-text-fixes
 
