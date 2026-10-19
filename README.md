@@ -4,7 +4,7 @@
 
 Index of speech technology repositories, tools, and resources — covering the full pipeline from speech capture through transcription, cleanup, and text transformation.
 
-*Last updated: 2026-10-18*
+*Last updated: 2026-10-19*
 
 ---
 
@@ -226,24 +226,14 @@ WIP to try to create a good STT utility with cloud STT APIs
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Deepgram-Voice-Keyboard-Ubuntu)
 
-### English-Hebrew Code-Switching Apps
+### Parlance
 
-On-device apps for the [Parakeet English-Hebrew code-switching fine-tune](https://github.com/danielrosehill/English-Hebrew-Codeswitching-Parakeet-Finetune) (sherpa-onnx). Both download the model themselves and update it from Hugging Face.
+On-device dictation with NVIDIA Parakeet for Android, Linux and Windows, run through sherpa-onnx (int8). Choice of model: stock Parakeet TDT 0.6B v2 or the [English-Hebrew code-switching fine-tune](https://github.com/danielrosehill/English-Hebrew-Codeswitching-Parakeet-Finetune); technical-vocabulary and personal-voice fine-tunes coming soon. The Android app is a voice keyboard (IME), the companion voice input for HeliBoard; the desktop app is a tray app with hotkey or foot-pedal dictation and a Transcribe tab. Both download the model themselves and update it from Hugging Face. v0.1.0 (2026-10-19); replaces Voice To Hebrish and Parakeet-Type-Ubuntu.
 
-#### Voice To Hebrish (Linux and Windows)
-
-Tray dictation app for Ubuntu and Windows: any hotkey or foot pedal (tap to toggle, or hold to talk) pastes at the cursor, plus a Transcribe tab for long recordings and audio files. First-run model download and update checks. v0.2.0 proof of concept (2026-10-18).
-
-[![.deb](https://img.shields.io/badge/Download-.deb_v0.2.0-E95420?logo=ubuntu&logoColor=white)](https://github.com/danielrosehill/Voice-To-Hebrish/releases/download/desktop-v0.2.0/voice-to-hebrish_0.2.0-1_amd64.deb)
-[![Windows](https://img.shields.io/badge/Download-Windows_v0.2.0-0078D4?logo=windows&logoColor=white)](https://github.com/danielrosehill/Voice-To-Hebrish/releases/download/desktop-v0.2.0/VoiceToHebrish-v0.2.0-windows-x64.zip)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Voice-To-Hebrish/tree/main/desktop)
-
-#### Voice To Hebrish (Android)
-
-Voice keyboard (IME), the companion voice input for HeliBoard, with a no-setup **Try it** notepad. v0.6.0 proof of concept (2026-10-18).
-
-[![APK](https://img.shields.io/badge/Download-APK_v0.6.0-2E7D6B?logo=android&logoColor=white)](https://github.com/danielrosehill/Voice-To-Hebrish/releases/download/android-v0.6.0/VoiceToHebrish-v0.6.0.apk)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Voice-To-Hebrish/tree/main/android)
+[![APK](https://img.shields.io/badge/Download-APK_v0.1.0-2E7D6B?logo=android&logoColor=white)](https://github.com/danielrosehill/Parlance-Dictation/releases/download/android-v0.1.0/Parlance-v0.1.0.apk)
+[![.deb](https://img.shields.io/badge/Download-.deb_v0.1.0-E95420?logo=ubuntu&logoColor=white)](https://github.com/danielrosehill/Parlance-Dictation/releases/download/desktop-v0.1.0/parlance_0.1.0-1_amd64.deb)
+[![Windows](https://img.shields.io/badge/Download-Windows_v0.1.0-0078D4?logo=windows&logoColor=white)](https://github.com/danielrosehill/Parlance-Dictation/releases/download/desktop-v0.1.0/Parlance-v0.1.0-windows-x64.zip)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Parlance-Dictation)
 
 ### Other STT & Dictation Apps
 
@@ -264,12 +254,6 @@ A free, open source, and extensible speech-to-text application that works comple
 Voice-powered typing for Wayland/Hyprland desktops
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/hyprvoice)
-
-#### Parakeet-Type-Ubuntu
-
-On-device voice typing for Linux (KDE) with several Parakeet, Canary and Nemotron models via sherpa-onnx. For the code-switching fine-tune, use Voice To Hebrish (desktop) (above) instead.
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Parakeet-Type-Ubuntu)
 
 #### speech-notes-with-text-fixes
 
