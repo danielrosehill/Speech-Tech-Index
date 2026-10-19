@@ -160,7 +160,7 @@ Collection of public audio datasets for speech recognition training and evaluati
 
 Dataset of mixed English/Hebrew sentences for multilingual ASR training
 
-[![Hugging Face](https://img.shields.io/badge/HuggingFace-Dataset-yellow?logo=huggingface)](https://huggingface.co/datasets/danielrosehill/English-Hebrew-Mixed-Sentences)
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-Dataset-yellow?logo=huggingface)](https://huggingface.co/datasets/Hebrish/English-Hebrew-Mixed-Sentences)
 
 ### Tech Audio Samples
 
@@ -222,12 +222,12 @@ A fork of Deepgram's Linux starter. CLI -> GUI + hotkey support, API key editing
 
 ### Parlance
 
-On-device dictation with NVIDIA Parakeet for Android, Linux and Windows, run through sherpa-onnx (int8). Choice of model: stock Parakeet TDT 0.6B v2 or the [English-Hebrew code-switching fine-tune](https://github.com/danielrosehill/English-Hebrew-Codeswitching-Parakeet-Finetune); technical-vocabulary and personal-voice fine-tunes coming soon. The Android app is a voice keyboard (IME), the companion voice input for HeliBoard; the desktop app is a tray app with hotkey or foot-pedal dictation and a Transcribe tab. Both download the model themselves and update it from Hugging Face. v0.1.0 (2026-10-19); replaces Voice To Hebrish and Parakeet-Type-Ubuntu.
+On-device dictation with NVIDIA Parakeet for Android, Linux and Windows, run through sherpa-onnx (int8). Choice of model: stock Parakeet TDT 0.6B v2 or the [English-Hebrew code-switching fine-tune](https://github.com/Hebrish-ASR/English-Hebrew-Codeswitching-Parakeet-Finetune); technical-vocabulary and personal-voice fine-tunes coming soon. The Android app is a voice keyboard (IME), the companion voice input for HeliBoard; the desktop app is a tray app with hotkey or foot-pedal dictation and a Transcribe tab. Both download the model themselves and update it from Hugging Face. v0.1.0 (2026-10-19); replaces Voice To Hebrish and Parakeet-Type-Ubuntu.
 
-[![APK](https://img.shields.io/badge/Download-APK_v0.1.0-2E7D6B?logo=android&logoColor=white)](https://github.com/danielrosehill/Parlance-Dictation/releases/download/android-v0.1.0/Parlance-v0.1.0.apk)
-[![.deb](https://img.shields.io/badge/Download-.deb_v0.1.0-E95420?logo=ubuntu&logoColor=white)](https://github.com/danielrosehill/Parlance-Dictation/releases/download/desktop-v0.1.0/parlance_0.1.0-1_amd64.deb)
-[![Windows](https://img.shields.io/badge/Download-Windows_v0.1.0-0078D4?logo=windows&logoColor=white)](https://github.com/danielrosehill/Parlance-Dictation/releases/download/desktop-v0.1.0/Parlance-v0.1.0-windows-x64.zip)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Parlance-Dictation)
+[![APK](https://img.shields.io/badge/Download-APK_v0.1.0-2E7D6B?logo=android&logoColor=white)](https://github.com/Hebrish-ASR/Parlance-Dictation/releases/download/android-v0.1.0/Parlance-v0.1.0.apk)
+[![.deb](https://img.shields.io/badge/Download-.deb_v0.1.0-E95420?logo=ubuntu&logoColor=white)](https://github.com/Hebrish-ASR/Parlance-Dictation/releases/download/desktop-v0.1.0/parlance_0.1.0-1_amd64.deb)
+[![Windows](https://img.shields.io/badge/Download-Windows_v0.1.0-0078D4?logo=windows&logoColor=white)](https://github.com/Hebrish-ASR/Parlance-Dictation/releases/download/desktop-v0.1.0/Parlance-v0.1.0-windows-x64.zip)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/Hebrish-ASR/Parlance-Dictation)
 
 ### Other STT & Dictation Apps
 
