@@ -92,9 +92,9 @@ Planning doc for STT fine-tuning and eval project
 
 ### whisper-acft
 
-Whisper ACFT fine-tuning
+FUTO's Whisper ACFT fine-tuning code (upstream)
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/whisper-acft)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/futo-org/whisper-acft)
 
 ### Whisper Fine Tuning Resources
 
@@ -220,12 +220,6 @@ A fork of Deepgram's Linux starter. CLI -> GUI + hotkey support, API key editing
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/deepgram-voice-keyboard)
 
-#### Deepgram Voice Keyboard Ubuntu
-
-WIP to try to create a good STT utility with cloud STT APIs
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Deepgram-Voice-Keyboard-Ubuntu)
-
 ### Parlance
 
 On-device dictation with NVIDIA Parakeet for Android, Linux and Windows, run through sherpa-onnx (int8). Choice of model: stock Parakeet TDT 0.6B v2 or the [English-Hebrew code-switching fine-tune](https://github.com/danielrosehill/English-Hebrew-Codeswitching-Parakeet-Finetune); technical-vocabulary and personal-voice fine-tunes coming soon. The Android app is a voice keyboard (IME), the companion voice input for HeliBoard; the desktop app is a tray app with hotkey or foot-pedal dictation and a Transcribe tab. Both download the model themselves and update it from Hugging Face. v0.1.0 (2026-10-19); replaces Voice To Hebrish and Parakeet-Type-Ubuntu.
@@ -253,13 +247,13 @@ A free, open source, and extensible speech-to-text application that works comple
 
 Voice-powered typing for Wayland/Hyprland desktops
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/hyprvoice)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/LeonardoTrapani/hyprvoice)
 
-#### speech-notes-with-text-fixes
+#### dsnote (Speech Note)
 
 Speech Note Linux app. Note taking, reading and translating with offline STT, TTS and Machine translation
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/speech-notes-with-text-fixes)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/mkiol/dsnote)
 
 #### Thought-Pad
 
@@ -267,17 +261,11 @@ Linux desktop application for creating notes from dictated speech
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Thought-Pad)
 
-#### Voice-Note-Recorder-Ubuntu
-
-GUI for recording voice notes
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Voice-Note-Recorder-Ubuntu)
-
-#### Wayland-Voice-Typer
+#### whispertux
 
 Simple GUI around whisper.cpp for voice-to-text on Linux
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Wayland-Voice-Typer)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/cjams/whispertux)
 
 ### Multimodal Audio Transcription
 
@@ -299,23 +287,11 @@ Workflow workspace for importing recordings from a DVR and using AI for transcri
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/DVR-Transcriber)
 
-#### Gemini-Audio-Transcriber
-
-File upload based multimodal transcription tool using Gemini
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Gemini-Audio-Transcriber)
-
 #### Gemini-Transcription-MCP
 
 MCP for Gemini multimodal audio transcription with built in post-processing
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Gemini-Transcription-MCP)
-
-#### Local-Multimodal-Transcriber
-
-Local transcription app with audio multimodal design
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Local-Multimodal-Transcriber)
 
 ---
 
