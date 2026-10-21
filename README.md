@@ -1,6 +1,6 @@
 # Speech Tech Index
 
-[![Part of the Daniel Rosehill Index Collection](https://img.shields.io/badge/Index-Master%20Index-blue?logo=github)](https://github.com/danielrosehill/Index)
+[![Part of the Daniel Rosehill Index Collection](https://img.shields.io/badge/Index-Master%20Index-blue?logo=github)](https://github.com/danielrosehill/Start-Here)
 
 Index of speech technology repositories, tools, and resources — covering the full pipeline from speech capture through transcription, cleanup, and text transformation.
 
