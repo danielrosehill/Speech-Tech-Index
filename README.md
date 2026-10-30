@@ -4,7 +4,7 @@
 
 Index of speech technology repositories, tools, and resources — covering the full pipeline from speech capture through transcription, cleanup, and text transformation.
 
-*Last updated: 2026-10-19*
+**Last Updated:** October 2026
 
 ---
 
@@ -182,43 +182,11 @@ Desktop applications and utilities for speech-to-text input.
 
 ### Whisper-Based Linux Prototypes
 
-#### Voice Prompt Editor
-
-Streamlit app for capturing and editing prompts and system prompts
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Voice-Prompt-Editor)
-
 #### Voice Prompt Runner
 
 Demo UI which parses and then runs audio prompts
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Voice-Prompt-Runner)
-
-#### Whisper Notepad For Linux
-
-Notepad for Linux that uses OpenAI Whisper (API) and reformats dictated text
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Whisper-Notepad-For-Linux)
-
-#### Whisper Notepad Simple
-
-A Linux desktop utility for converting speech to text using the OpenAI Whisper API
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Whisper-Notepad-Simple)
-
-#### Whisper Transcription Notepad Linux
-
-Transcription notepad with cloud speech to text (STT) for Linux
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Whisper-Transcription-Notepad-Linux)
-
-### Deepgram-Based Linux Prototypes
-
-#### Deepgram Voice Keyboard
-
-A fork of Deepgram's Linux starter. CLI -> GUI + hotkey support, API key editing, cost tracking. WIP
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/deepgram-voice-keyboard)
 
 ### Parlance
 
@@ -237,11 +205,11 @@ Open Source AI Dictation App - Type 3x faster, no keyboard needed
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/amical)
 
-#### Handy
+#### Handy Wayland
 
 A free, open source, and extensible speech-to-text application that works completely offline
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Handy)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Handy-Wayland)
 
 #### hyprvoice
 
@@ -323,12 +291,6 @@ Basic foundational system prompt for cleaning up AI voice transcripts
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/STT-Basic-Cleanup-System-Prompt)
 
-### Text Magic Fix Linux
-
-WIP/Idea - Select text and fix typos with local AI
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Text-Magic-Fix-Linux)
-
 ### Text Transformation Prompt Collection 2
 
 An abbreviated collection of STT transformation prompts
@@ -400,12 +362,6 @@ Config for a text redaction agent for voicenote -> * workflows
 ## Voice Automation & Pipelines
 
 Workflows and agents for voice-to-action automation.
-
-### Audio Context Pipeline Model 0425
-
-Planning repo for personalised AI context pipeline with revised tooling
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Audio-Context-Pipeline-Model-0425)
 
 ### STT To TTS
 
@@ -541,18 +497,6 @@ Generate EQ templates for audio processing
 
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-Space-yellow?logo=huggingface)](https://huggingface.co/spaces/danielrosehill/EQ-Template-Generator)
 
-### Mic Input Boot FX Script Ubuntu
-
-Boot script to ensure that Easy Effects manages the input sound source on boot (Ubuntu)
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Mic-Input-Boot-FX-Script-Ubuntu)
-
-### Speech Recognition Audio Chain
-
-Attempt to set up a good autostart audio processing chain for STT
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Speech-Recognition-Audio-Chain)
-
 ### Voice Analyzer
 
 Analyses voice data
@@ -613,23 +557,17 @@ Some timestamped API pricepoints for speech to text providers
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/STT-Price-Points-260225)
 
-### Voice LLM App Notes
-
-A few notes describing the kind of voice app for large language models I would love to have!
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Voice-LLM-App-Notes)
-
 ### Dictation Macropad
 
 Plan/key allocation for a macropad optimised for heavy daily dictation workflows
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Dictation-Macropad)
 
-### Linux Friendly Voice Tech
+### Linux Voice Tech
 
 List of resources for voice technology with support for Linux
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Linux-Friendly-Voice-Tech)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Linux-Voice-Tech)
 
 ### Speech To Text Chain Notes
 
