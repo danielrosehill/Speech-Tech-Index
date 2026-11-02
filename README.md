@@ -237,6 +237,12 @@ Simple GUI around whisper.cpp for voice-to-text on Linux
 
 ### Multimodal Audio Transcription
 
+#### Transcription-Pipeline (current)
+
+The current, consolidated transcription plugin for Claude Code (v3.0.0, 2026-11-02): retrieve, preprocess (EQ, denoise, VAD), transcribe (OpenRouter/Gemini Flash, AssemblyAI, Gemini, local Whisper/Parakeet), clean, label speakers, reshape, Typst PDF, save. Supersedes the MCP servers and plugins below.
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Transcription-Pipeline)
+
 #### AI-Transcription-Notepad
 
 Voice note taking utility with cloud audio multimodal models for transcription and text cleanup
@@ -245,7 +251,7 @@ Voice note taking utility with cloud audio multimodal models for transcription a
 
 #### Cloud-ASR-MCP
 
-WIP MCP for using various cloud ASR models for speech to text / transcription
+**Archived, superseded by [Transcription-Pipeline](https://github.com/danielrosehill/Transcription-Pipeline).** MCP for using various cloud ASR models for speech to text / transcription
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Cloud-ASR-MCP)
 
@@ -257,7 +263,7 @@ Workflow workspace for importing recordings from a DVR and using AI for transcri
 
 #### Gemini-Transcription-MCP
 
-MCP for Gemini multimodal audio transcription with built in post-processing
+**Archived, superseded by [Transcription-Pipeline](https://github.com/danielrosehill/Transcription-Pipeline).** MCP for Gemini multimodal audio transcription with built in post-processing
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Gemini-Transcription-MCP)
 
